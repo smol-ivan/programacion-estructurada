@@ -1,3 +1,4 @@
+import manipulacion as use
 
 def seleccion_opciones(opciones):
     option = False
@@ -46,12 +47,16 @@ def principal():
     seleccion = seleccion_opciones(opciones)
     if seleccion == 1:
         agregar_producto()
+    elif seleccion == 4:
+        mostrar_catalogo()
 
 def agregar_producto():
     opciones = opciones_menu(1)
     plantilla_menu(opciones, 'Menu Agregar Producto')
     seleccion = seleccion_opciones(opciones)
-    if seleccion == 5:
+    if seleccion != 5:
+        use.agregar_producto(seleccion)
+    else:
         principal()
 
 def mostrar_catalogo():
