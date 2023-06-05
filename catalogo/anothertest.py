@@ -13,51 +13,52 @@ def imprimir_menu(menu):
     for key, value in menu.items():
         print(key, value)
 
-def menu_principal():
-    opciones = opciones_menu(0)
-    print('~Menu Principal~')
+def plantilla_menu(opciones, titulo):
+    print(f'~{titulo}~')
     imprimir_menu(opciones)
-    seleccion = seleccion_opciones(opciones)
-    if seleccion == 1:
-        menu_agregar_producto()
-    elif seleccion == 4:
-        menu_mostrar_catalogo()     
-
-def menu_agregar_producto():
-    opciones = opciones_menu(1)
-    print('~Menu Agregar Producto~')
-    imprimir_menu(opciones)
-    seleccion = seleccion_opciones(opciones)
-    if seleccion == 5:
-        menu_principal()
-
-def menu_mostrar_catalogo():
-    opciones = opciones_menu(2)
-    print('~Menu Mostrar Catalogo~')
-    imprimir_menu(opciones)
-    seleccion = seleccion_opciones(opciones)
-    if seleccion == 6:
-        menu_principal()
+    return
 
 def opciones_menu(opcion):
-    lista = [{1 : '~  Agregar un producto.', 
-              2 : '~  Buscar un produto.', 
-              3 : '~  Eliminar un producto.', 
-              4 : '~  Mostrar catalogo.', 
-              5 : '~  Cargar catalogo.', 
-              6 : '~  Guardar catalogo.', 
-              7 : '~  Salir.'}, 
-            {1 : '~  Pelicula', 
-            2 : '~  Serie', 
-            3 : '~  Documental', 
-            4 : '~  Evento deportivo en vivo',
-            5 : '~  Regresar'}, 
-            {1 : '~  Pelicula', 
-            2 : '~  Serie', 
-            3 : '~  Documental', 
-            4 : '~  Evento deportivo en vivo',
-            5 : '~  Todo',
-            6 : '~  Regresar'}]
+    lista = [
+        {1 : '~  Agregar un producto.', 
+        2 : '~  Buscar un produto.', 
+        3 : '~  Eliminar un producto.', 
+        4 : '~  Mostrar catalogo.', 
+        5 : '~  Cargar catalogo.', 
+        6 : '~  Guardar catalogo.', 
+        7 : '~  Salir.'}, 
+        {1 : '~  Pelicula', 
+        2 : '~  Serie', 
+        3 : '~  Documental', 
+        4 : '~  Evento deportivo en vivo',
+        5 : '~  Regresar'}, 
+        {1 : '~  Pelicula', 
+        2 : '~  Serie', 
+        3 : '~  Documental', 
+        4 : '~  Evento deportivo en vivo',
+        5 : '~  Todo',
+        6 : '~  Regresar'}]
     return lista[opcion]
 
-menu_principal()
+def principal():
+    opciones = opciones_menu(0)
+    plantilla_menu(opciones, 'Menu Principal')
+    seleccion = seleccion_opciones(opciones)
+    if seleccion == 1:
+        agregar_producto()
+
+def agregar_producto():
+    opciones = opciones_menu(1)
+    plantilla_menu(opciones, 'Menu Agregar Producto')
+    seleccion = seleccion_opciones(opciones)
+    if seleccion == 5:
+        principal()
+
+def mostrar_catalogo():
+    opciones = opciones_menu(2)
+    plantilla_menu(opciones, 'Menu Mostrar Catálogo')
+    seleccion = seleccion_opciones(opciones)
+    if seleccion == 6:
+        principal()
+
+principal()
