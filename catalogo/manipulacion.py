@@ -13,7 +13,16 @@ def buscar_catalogo(opcion):
         diccionario = 'Todo'
 
 catalogo = [
-    {'Peliculas' : [
-        {'Titulo': 'Nemo', 'Año' : 2003, 'Director' : 'Andrew Stanton'}, 
-       {'Titulo': 'Buscando a Dory', 'Año' : 2016, 'Director' : 'Andrew Stanton'}]
-       }]
+    {
+        'Peliculas': [
+            {'Titulo': 'Nemo', 'Año': 2003, 'Director': 'Andrew Stanton'},
+            {'Titulo': 'Buscando a Dory', 'Año': 2016, 'Director': 'Andrew Stanton'}
+        ]
+    },
+    {
+        'Series': [
+            {'Titulo': 'Breaking Bad', 'Año': 2008, 'Creador': 'Vince Gilligan'},
+            {'Titulo': 'Game of Thrones', 'Año': 2011, 'Creador': 'David Benioff, D. B. Weiss'}
+        ]
+    }
+]
