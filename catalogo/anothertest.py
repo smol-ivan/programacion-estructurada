@@ -1,4 +1,5 @@
 import manipulacion as use
+import files 
 
 def seleccion_opciones(opciones):
     option = False
@@ -46,19 +47,20 @@ def principal():
     opciones = opciones_menu(0)
     plantilla_menu('Menu Principal', opciones)
     seleccion = seleccion_opciones(opciones)
+    catalogo = files.cargar_catalogo()
     if seleccion == 1:
-        agregar_producto()
+        agregar_producto(catalogo)
     elif seleccion == 4:
-        mostrar_catalogo()
+        mostrar_catalogo(catalogo)
     elif seleccion == 5:
-        cargar_catalogo()
+        cargar_catalogo(catalogo)
 
-def agregar_producto():
+def agregar_producto(catalogo):
     opciones = opciones_menu(1)
     plantilla_menu('Menu Agregar Producto', opciones)
     seleccion = seleccion_opciones(opciones)
     if seleccion != 5:
-        use.agregar_producto(seleccion)
+        use.agregar_producto(catalogo, seleccion)
     else:
         principal()
 

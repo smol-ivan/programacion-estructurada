@@ -3,13 +3,6 @@
 #Abrir el archivo leerlo, agregar/eliminar y luego cerrar
 # o abrirlo, almacenar lo leido, cerrar el archivo, en otra funcion modificar lo del archivo, llamar a una funcion que sobreescriba los datos
 
-"""def cargar_catalogo():
-    nombre_archivo = input('Ingrese el nombre del archivo: ')
-    with open(nombre_archivo, 'r') as archivo:
-        contenido = archivo.read()
-        catalogo = eval(contenido)
-    return catalogo"""
-
 def cargar_catalogo():
     while True:
         nombre_archivo = input('Ingrese el nombre del archivo a cargar: ')
@@ -40,5 +33,3 @@ def guardar_catalogo(catalogo):
             print(f"No tiene permisos para escribir en el archivo '{nombre_archivo}'. Intente de nuevo.")
         except Exception as e:
             print(f"Ocurrió un error al guardar el catálogo: {str(e)}")
-
-print(guardar_catalogo('hola'))
