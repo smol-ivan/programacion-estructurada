@@ -33,3 +33,29 @@ def guardar_catalogo(catalogo):
             print(f"No tiene permisos para escribir en el archivo '{nombre_archivo}'. Intente de nuevo.")
         except Exception as e:
             print(f"Ocurrió un error al guardar el catálogo: {str(e)}")
+
+
+dict = [
+    {
+        'Pelicula': [
+            {'Titulo': 'Nemo', 'Año': 2003, 'Director': 'Andrew Stanton', 'Costo':{'Venta': '400', 'Renta': '200'}},
+            {'Titulo': 'Buscando a Dory', 'Año': 2016, 'Director': 'Andrew Stanton', 'Costo':{'Venta': '400', 'Renta': '200'}}
+        ]
+    },
+    {
+        'Serie': [
+            {'Titulo': 'Breaking Bad', 'Año': 2008, 'Creador': 'Vince Gilligan'},
+            {'Titulo': 'Game of Thrones', 'Año': 2011, 'Creador': 'David Benioff, D. B. Weiss'}
+        ]
+    },
+    {
+        'Documental' : [
+            {'Titulo': 'Hongos Fantasticos', 'Director/a': 'Paul Staments', 'Tema': 'Drogradiccion', 'Año': 2020, 'Costo':{'Venta': '400', 'Renta': '200'}}
+        ]
+    },
+    {
+        'Evento deportivo en vivo': [
+            {'Titulo': 'UEFA Champions League', 'Deporte': 'Futbol', 'Fecha': '10/06/2023', 'Hora': '13:00', 'Lugar': 'Paris', 'Costo': {'Venta': '1000'}}
+        ]
+    }
+]

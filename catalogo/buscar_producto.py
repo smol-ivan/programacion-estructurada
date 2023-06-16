@@ -1,4 +1,4 @@
-[
+catalogo = [
     {
         'Pelicula': [
             {'Titulo': 'Nemo', 'Año': 2003, 'Director': 'Andrew Stanton', 'Costo':{'Venta': '400', 'Renta': '200'}},
@@ -22,3 +22,12 @@
         ]
     }
 ]
+
+def productos_categoria(categoria, catalogo):
+    for item in catalogo:
+        if categoria in item:
+            return item[categoria]
+print(productos_categoria('Serie', catalogo))
+
+def buscar_producto():
+    print('hola')
