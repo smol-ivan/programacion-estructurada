@@ -13,9 +13,9 @@ Algunas de las funcionalidades del programa incluyen la carga inicial del catalo
 ## Tabla de contenidos
 
 - [Proyecto](#proyecto)
-  - [Descripcion General del Proyecto {#descipcion-general}](#descripcion-general-del-proyecto-descipcion-general)
+  - [Descripcion General del Proyecto](#descripcion-general-del-proyecto-descipcion-general)
   - [Tabla de contenidos](#tabla-de-contenidos)
-  - [Estructura del proyecto {#estructura-proyecto}](#estructura-del-proyecto-estructura-proyecto)
+  - [Estructura del proyecto](#estructura-del-proyecto-estructura-proyecto)
   - [Funciones {#funciones}](#funciones-funciones)
   - [Consideraciones](#consideraciones)
   - [Intruciones de uso](#intruciones-de-uso)
