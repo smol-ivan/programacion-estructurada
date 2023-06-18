@@ -59,6 +59,7 @@ Para la implementacion fue de gran ayuda un diagrama de estrcutura tan sencillo,
     - imprimir_menu(): Imprime el diccionario resultante de opciones_menu()
     - seleccion_opciones(): Para escoger la seleccion de los diferentes menus, esta funcion recibe la lista de opciones del menu, y se adapta la seleccion de acuerdo al numero de oppciones en el diccionario
   - Otro de los muchos ejemplos fue con la implementacion de una funcion para que verifique si el catalogo ya fue cargado en el programa, de lo contrario no se pueden usar las opciones para manipular el catalogo
+Durante la implementacion en Python, fue de gran utilidad el uso de los bloques try-except, ya que con estos durante todo el proceso permiten visualizar mejor los problemas que puedan surgir, por ejemplo si alguna variable no es del tipo de dato que se esperaba o durante las funciones de busqueda que se estuviera iterando bien sobre el catalogo, en resumen, los bloques try-except ayudan mucho durante las depuraciones.
 
 ### Respecto al uso de los modulos.
 
