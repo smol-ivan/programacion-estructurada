@@ -1,4 +1,4 @@
-# Tabla de contenido
+# Tabla de contenidos
   - Tabla de contenido
   - Funciones
     - Modulo Utilidades del catalogo
