@@ -42,10 +42,9 @@ Click [aqui](./funciones.md) para ir a las funciones
 
 1. Para hacer uso del sistema de catalogos, solo basta con tener python instalado en el sistema, y tener descargados los archivos del repositorio
 2. Para iniciar el programa basta con abrir la terminal en donde se encuentrar los archivos .py y escribir:
-
-        ```cmd
-        py catalogo.py
-        ```
+```cmd
+py catalogo.py
+```
 3. Una vez desplegado el menu principal, se tiene que cargar el archivo donde se encuentre el catalogo, esto escogiendo la opcion no.5 (El programa puede crear un achivo nuevo con un catalogo vacio si es que no se cuenta con un archivo previo).
 4. Para hacer uso de la manipulacion y control del catalogo basta con escoger una opcion(agregar,eliminar, mostrar catalogo, buscar) para despues seguir las instrucciones que el sistema vaya pidiendo
 5. Una vez terminada la manipulacion del catalogo, se tendran que guardar los cambios hechos seleccionando la opcion no.6 del menu principal.
