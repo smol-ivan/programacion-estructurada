@@ -12,13 +12,13 @@ Algunas de las funcionalidades del programa incluyen la carga inicial del catalo
 
 ## Tabla de contenidos
 
-- [Proyecto](#proyecto)
+- [Proyecto](#proyecto-proyecto)
   - [Descripcion General del Proyecto](#descripcion-general-del-proyecto-descipcion-general)
-  - [Tabla de contenidos](#tabla-de-contenidos)
+  - [Tabla de contenidos](#tabla-de-contenidos-tabla-de-contenidos)
   - [Estructura del proyecto](#estructura-del-proyecto-estructura-proyecto)
   - [Funciones](#funciones-funciones)
-  - [Consideraciones](#consideraciones)
-  - [Intruciones de uso](#intruciones-de-uso)
+  - [Consideraciones](#consideraciones-consideraciones)
+  - [Intruciones de uso](#intruciones-de-uso-instrucciones-de-uso)
 
 ## Estructura del proyecto 
 
