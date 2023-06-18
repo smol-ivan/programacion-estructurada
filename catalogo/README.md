@@ -2,7 +2,7 @@
 
 # Proyecto
 
-## Descripcion General del Proyecto {#descipcion-general}
+## Descripcion General del Proyecto
 
 El presente proyecto tiene como objetivo principal actualizar el sistema de renta y venta de un servicio de streaming. Se requiere desarrollar un programa que permita una interaccion eficiente y sencilla que permitan la manipulacion del catalogo de productos.
 
