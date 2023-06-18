@@ -20,12 +20,12 @@ Algunas de las funcionalidades del programa incluyen la carga inicial del catalo
   - [Consideraciones](#consideraciones)
   - [Intruciones de uso](#intruciones-de-uso)
 
-## Estructura del proyecto {#estructura-proyecto}
+## Estructura del proyecto 
 
 ![top-down diagrame de estructura](./img/diagrama.png)
 <sub>_**click [aqui](https://www.figma.com/file/gGUbw0SLhhbP5NFplgt1iu/Untitled?type=whiteboard&node-id=0%3A1&t=IFf8Mpjt3Wv4rbxZ-1) para revisar el diagrama en mejor resolucion**_</sub>
 
-## Funciones {#funciones}
+## Funciones 
 
 - ### Modulo Utilidades del catalogo
 
