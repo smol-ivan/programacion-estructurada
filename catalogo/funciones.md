@@ -349,11 +349,21 @@
 
       _Argumentos:_
 
-          .catalogo (list): Catálogo de productos.
+          catalogo (list): Catálogo de productos.
 
       _Variables:_
 
           - catalogo (list): Catálogo de productos.
+
+      No regresa ningun valor
+
+- ### _**principal**_
+
+          Menu principal el cual despliega las opciones de manipulacion de catalogo
+
+      _Argumentos:_
+
+          catalogo (list): Catálogo de productos.
 
       No regresa ningun valor
 
